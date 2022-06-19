@@ -34,4 +34,4 @@ Cypress
 
 ## Deployed on Vercel
 
-https://wen-lambo-weld.vercel.app/
+wen-lambo-hch6koxjr-jyi428.vercel.app
