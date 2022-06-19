@@ -31,3 +31,7 @@ Cypress
 2. Click `E2E Testing`
 3. Click `Start E2E Testing in _` (browser of your choice)
 4. Click `specy.cy.js` file
+
+## Deployed on Vercel
+
+https://wen-lambo-weld.vercel.app/
