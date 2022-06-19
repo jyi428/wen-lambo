@@ -56,7 +56,7 @@ function CreateNewPost() {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
 
-  // Ensure slug is URL safe
+  // Ensure id is URL safe
   const id = encodeURI(kebabCase(title));
 
   // Create a new post in firestore
