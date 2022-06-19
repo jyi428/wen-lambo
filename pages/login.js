@@ -134,7 +134,7 @@ const EnterPage = () => {
 
       {username ? (
         <div className="box-center">
-          Click Post to start or checkout the lambo
+          {`Click Post to start or checkout the lambo`}
           <img src={"doge.jpg"} className="doge" />
           <Loader show={true} />
         </div>
