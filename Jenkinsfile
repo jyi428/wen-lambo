@@ -15,12 +15,18 @@ pipeline {
           }
         }
 
-        stage('Front-End Unit Test') {
+        stage('Front- End Unit Test') {
           steps {
             sh 'npm i && npm run cypress'
           }
         }
 
+      }
+    }
+
+    stage('Build') {
+      steps {
+        sh 'docker build -f'
       }
     }
 
