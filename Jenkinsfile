@@ -17,7 +17,7 @@ pipeline {
 
         stage('Front-End Unit Test') {
           steps {
-            sh 'npm i && npm run cypress:headless'
+            sh 'npm i && npm run cypress'
           }
         }
 
